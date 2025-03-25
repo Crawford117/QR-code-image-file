@@ -3,11 +3,11 @@ import time
 from epd_2inch13 import *
 from epd_gui import *
 import gpiozero
-gui = EPD_GUI()
+
 # Set your display dimensions.
 EPD_WIDTH = 122
 EPD_HEIGHT = 250
-
+gui = EPD_GUI()
 # Open your image file using the full file path.
 im = Image.open("/home/bruh/Desktop/QR code.bmp")
 
