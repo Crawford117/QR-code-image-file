@@ -3,7 +3,7 @@ import time
 from epd_2inch13 import *
 from epd_gui import *
 import gpiozero
-
+gui = EPD_GUI()
 # Set your display dimensions.
 EPD_WIDTH = 122
 EPD_HEIGHT = 250
